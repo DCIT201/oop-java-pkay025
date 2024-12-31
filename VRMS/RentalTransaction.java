@@ -1,13 +1,21 @@
 package VRMS;
 
 public class RentalTransaction {
-    public class RentalTransaction {
+    public RentalTransaction(Customer customer, Vehicle vehicle, int days) {
+
+    }
+
+    public Vehicle getVehicle() {
+        return null;
+    }
+
+    public class rentaltransaction {
         private final Customer customer;
         private final Vehicle vehicle;
         private final int rentalDays;
         private final double totalCost;
 
-        public RentalTransaction(Customer customer, Vehicle vehicle, int rentalDays) {
+        public rentaltransaction(Customer customer, Vehicle vehicle, int rentalDays) {
             this.customer = customer;
             this.vehicle = vehicle;
             this.rentalDays = rentalDays;
